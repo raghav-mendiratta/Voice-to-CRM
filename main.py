@@ -6,9 +6,6 @@ import whisper
 import gspread
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
-# for Credentials
-from dotenv import load_dotenv
-load_dotenv()
 # other modules
 import os
 import requests
