@@ -1,6 +1,6 @@
 #!/bin/env python3
 
-# to speech-to-text
+# for speech-to-text
 import whisper
 # for google sheet access
 import gspread
