@@ -35,5 +35,10 @@ Turn voice recordings into structured, qualified leads — fully automated using
 pip install -r requirements.txt
 ```
 
+# Run
+
+```bash
+py main.py
+```
 
 
