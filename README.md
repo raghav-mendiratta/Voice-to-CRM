@@ -1,44 +1,32 @@
-# 🎙️ Voice-to-CRM | Transcribe, Qualify & Log Leads into Google Sheets
+# 🎙️ Voice to CRM - Convert Cold Calls into CRM Data Automatically
 
-Turn voice recordings into structured, qualified leads — fully automated using Whisper + AI + Google Sheets API.
+**Voice to CRM** is a Python automation tool that converts cold call recordings into actionable summaries and logs them directly into a Google Sheet CRM using AI (Whisper + OpenRouter + Google Sheet API).
 
----
+## 🚀 Features
+- Transcribe voice calls using OpenAI Whisper
+- Summarize the call with AI (OpenRouter API)
+- Append the result to your Google Sheet CRM
+- Modular code and easy to customize
 
-## ⚙️ What It Does
+## 🏆 Achievements
+- 🔥 Fully automated voice-to-text and CRM logging
+- 🚀 Uses Whisper + AI summarizer + Google Sheets API
+- 🛠️ Real-world productivity tool, usable by agencies and startups
 
-- 🎧 Takes voice/audio input (e.g., client calls, voicemails)
-- 🧠 Transcribes using OpenAI Whisper
-- 🤖 Uses an AI model to extract:
-  - Name
-  - Phone Number
-  - Email
-  - Conversation Topic
-- 📊 Pushes structured lead data into Google Sheets CRM
+## 🧠 Technologies Used
+- Python
+- Whisper
+- Google Sheets API
+- OpenRouter (ChatGPT / Claude)
+- JSON, Logging
 
----
-
-## 🚀 Demo
-
-> “Hey, this is John from GreenTech. I’m looking for a solution to manage solar panel inventory. Call me back at 9876543210 or email john@greentech.io.”
-
-✅ Auto-filled in Google Sheet:
-
-| Name   | Phone Number | Email             | Subject                          |
-|--------|--------------|-------------------|----------------------------------|
-| John   | 9876543210   | john@greentech.io | manage solar panel inventory     |
-
----
-
-# Install dependencies
-
+## 📦 Installation
+```bash
+git clone https://github.com/yourusername/voice-to-crm.git
+```
+```bash
+cd Voice-to-CRM
+```
 ```bash
 pip install -r requirements.txt
 ```
-
-# Run
-
-```bash
-py main.py
-```
-
-
