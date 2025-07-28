@@ -22,7 +22,7 @@
 
 ## 📦 Installation
 ```bash
-git clone https://github.com/yourusername/voice-to-crm.git
+git clone https://github.com/yourusername/Voice-to-CRM.git
 ```
 ```bash
 cd Voice-to-CRM
