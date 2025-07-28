@@ -1,0 +1,7 @@
+{
+  "openrouter_api_key": "your-api-key",
+  "ai_model_name": "ai-model-name",
+  "ai_api_url": "ai-url", 
+  "google_sheets_id": "your-google-sheet-id",
+  "google_sheet_number": "sheet-number-ONLY ex: (1 OR 2 etc)"
+}
